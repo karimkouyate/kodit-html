@@ -1,0 +1,155 @@
+section{
+    // height:  100vh;
+    padding: 8rem 0;
+    // margin: 5vh 0;
+    // background-attachment: fixed;
+
+    @include respond(tab-port){
+        padding: 3rem;
+    }
+
+    // & .container{
+    //     height: 100%;
+    //     display: flex !important;
+    //     align-items: center !important;
+    //     justify-content: center !important;
+    // }
+}
+
+.scSiteBrand{
+    background: url(../images/DOTSSOCIALMEDIA.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-attachment: fixed;
+}
+
+.scSiteWB{
+    background: url(../images/DOTSWEB.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-attachment: fixed;
+
+}
+
+.scSiteSD{
+    background: url(../images/DOTSSOFTAWARE.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-attachment: fixed;
+}
+
+.scSiteBP{
+    background: url(../images/DOTSBRANDING.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-attachment: fixed;
+}
+
+.scSite{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    @include respond(tab-land){
+        display: block;
+    }
+
+    &__1{
+        width: 15%;
+        @include respond(tab-land){
+            display: none;
+        }
+    }
+
+    &__2{
+        width: 85%;
+        // height: 100%;
+
+        @include respond(tab-land){
+            width: 100%;
+        }
+
+        & video{
+            height: 45rem;
+            object-fit: contain;
+            width: 100%;
+            position: sticky;
+            top: 4rem;
+
+            @include respond(tab-port){
+                position: relative !important;
+                object-fit: contain;
+                height: 40rem;
+                top: 0;
+            }
+
+            @include respond(phone){
+                height: 30rem;
+            }
+        }
+
+        & h1{
+            font-size: 3.5rem;
+            margin-bottom: 4rem;
+
+            @include respond(tab-port){
+                font-size: 3rem;
+            }
+
+            @include respond(phone){
+                font-size: 2.5rem;
+            }
+        }
+
+        & p{
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            // letter-spacing: 2px;
+            font-weight: 300;
+        }
+    }
+
+
+}
+
+// .sect-par{
+//     height: 90vh;
+// }
+
+// .vid-par{
+//     position: sticky;
+//     top: 0;
+// }
+
+.vidMtrx{
+    height: 100%;
+    width: 100%;
+}
+
+.lifecycle{
+    & h1{
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+
+        @include respond(tab-port){
+            font-size: 3rem;
+        }
+
+        @include respond(phone){
+            font-size: 2.5rem;
+        }
+    }
+    
+    & img{
+        margin-top: 6rem;
+        width: 100%;
+        height: 30rem;
+        object-fit: contain;
+    }
+}
+// ************************************

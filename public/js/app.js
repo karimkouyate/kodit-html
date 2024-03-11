@@ -7,7 +7,12 @@ $(document).ready(function () {
         })
     })
 
-
+    $("a").on("click",()=>{
+    
+        $(".menu").css({
+            right:"-100%"
+        })
+    })
     
     $(".menu--exit").on("click",()=>{
         

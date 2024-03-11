@@ -452,7 +452,7 @@ section {
 }
 
 .header .header-text__text h1 .h1-pink {
-  background-color: #DE5B9D !important;
+  /* background-color: #DE5B9D !important; */
   padding: 1rem .5rem .5rem;
 }
 

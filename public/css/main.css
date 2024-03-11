@@ -25,6 +25,16 @@ html {
 }
 
 
+.animation-container {
+  width: 100%;
+  height: 100vh; /* Utilisez la hauteur de l'écran pour contenir l'animation */
+  overflow: hidden;
+  position: relative;
+}
+canvas {
+  display: block;
+}
+
 .img-container{
   width: 230px;
   height: 230px;
@@ -105,8 +115,8 @@ input:focus {
 }
 
 .navigation .container-fluid .logo {
-  height: 8rem;
-  width: 8rem;
+  height: 6.5rem;
+  width: 6.5rem;
 }
 
 .navigation .container-fluid .logo img {
@@ -290,7 +300,7 @@ input:focus {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 @media only screen and (max-width: 48em) {
@@ -465,17 +475,17 @@ section {
 
 .header {
   width: 100%;
-  height: 75vh;
+  height: 85vh;
   position: relative;
 }
 
 .header .header--overlay {
-  height: 75vh;
+  height: 85vh;
   position: absolute;
   width: 100%;
   top: 0;
   background: black;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.854779) 0%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.588673) 72%, black 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 45%, rgba(0, 0, 0, 0.1) 54%, rgba(0, 0, 0, 0.1) 72%, rgba(0, 0, 0, 0.9) 100%);
 }
 
 .header__video {

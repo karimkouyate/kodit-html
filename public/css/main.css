@@ -273,6 +273,18 @@ input:focus {
   border-bottom: 1px solid #fff;
 }
 
+.modal-body{
+  color : black;
+}
+
+
+
+
+.modal-content{
+  /* width: 650px !important; */
+}
+
+
 @media only screen and (min-width: 1540px) {
  
 }

@@ -20,9 +20,11 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 70%;
   scroll-behavior: smooth;
 }
+
+
 
 body {
   font-size: 1.6rem;
@@ -483,6 +485,125 @@ section {
   height: 16rem;
   width: 16rem;
 }
+
+
+/* Footer.css */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 60px 0;
+}
+
+.footer h5 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.footer a {
+  color: white; /* Couleur des liens en blanc */
+  text-decoration: none; /* Suppression du soulignement des liens */
+}
+
+.footer a:hover {
+  color: white; /* Couleur des liens en blanc au survol */
+  text-decoration: none; /* Suppression du soulignement des liens au survol */
+}
+
+.footer-services {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-services li {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social-icons a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-social-icons a:hover {
+  color: #007bff;
+}
+
+.contact-form {
+  background-color: black;
+}
+
+/* ContactForm.css */
+
+/* Style du conteneur du formulaire */
+.contact-form {
+  padding: 20px; /* Espacement interne du formulaire */
+  background-color: black; /* Fond blanc */
+}
+
+/* Style du titre "Start Building" */
+.contact-form h1 {
+  color: white; /* Couleur du texte blanc */
+  padding-top: 80px; /* Espacement intérieur */
+  border-radius: 5px; /* Coins arrondis */
+  margin-bottom: 20px; /* Marge inférieure */
+}
+
+/* Style des étiquettes des champs de saisie */
+label {
+  color: white; /* Couleur du texte blanc */
+}
+
+/* Style des champs de saisie */
+.form-control {
+  border: 2px solid purple; /* Bordure violette */
+}
+
+/* Style du bouton de soumission */
+.btn-primary {
+  background-color: purple; /* Couleur de fond violette */
+  border: 2px solid white; /* Bordure blanche */
+}
+
+/* Style du bouton de soumission */
+.btn-primary:hover {
+  background-color: white; /* Couleur de fond violette */
+  color: purple;
+  border: 2px solid purple; /* Bordure blanche */
+}
+
+/* Style des options du menu déroulant */
+select.form-control option {
+  color: black; /* Couleur du texte noir */
+  background-color: white; /* Fond blanc */
+}
+
+/* Style pour le champ de saisie du message */
+textarea.form-control {
+  border: 2px solid purple; /* Bordure violette */
+}
+
+/* Style du placeholder du champ de saisie du message */
+textarea.form-control::placeholder {
+  color: black; /* Couleur du texte violet */
+  font-size: 14px;
+}
+
+
+
 
 @media only screen and (max-width: 48em) {
   .header--bottom video {

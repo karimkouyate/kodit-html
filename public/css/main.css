@@ -25,7 +25,14 @@ html {
 }
 
 
+.img-container{
+  width: 230px;
+  height: 230px;
+}
 
+.img-container img{
+  width: 100%;
+}
 body {
   font-size: 1.6rem;
   box-sizing: border-box;
@@ -327,8 +334,23 @@ section {
   top: 4rem;
 }
 
+.scSite__2 img {
+  height: 45rem;
+  object-fit: contain;
+  width: 100%;
+  position: sticky;
+  top: 4rem;
+}
+
 @media only screen and (max-width: 48em) {
   .scSite__2 video {
+    position: relative !important;
+    object-fit: contain;
+    height: 40rem;
+    top: 0;
+  }
+
+  .scSite__2 img {
     position: relative !important;
     object-fit: contain;
     height: 40rem;

@@ -273,6 +273,12 @@ input:focus {
   border-bottom: 1px solid #fff;
 }
 
+@media only screen and (min-width: 1440px) {
+  html{
+    font-size: 130%;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .navigation .menu {
     height: 100vh;
@@ -307,6 +313,10 @@ section {
   section {
     padding: 1.5rem;
   }
+
+  .lifecycle-img-container {
+
+  }
 }
 
 .scSiteBrand {
@@ -314,6 +324,9 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
+  z-index: 2;
+
 }
 
 .scSiteWB {
@@ -350,9 +363,8 @@ section {
 }
 
 .scSite__1 {
-  margin-top: 2.5rem;
   width: 13%;
-  height: 80vh;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 62em) {
@@ -363,6 +375,7 @@ section {
 
 .scSite__2 {
   width: 85%;
+  position: relative;
 }
 
 @media only screen and (max-width: 62em) {
@@ -383,8 +396,9 @@ section {
   height: 45rem;
   object-fit: contain;
   width: 100%;
-  position: sticky;
   top: 4rem;
+  position: relative;
+  z-index: 1;
 }
 
 .scSite__1 img {
@@ -421,6 +435,7 @@ section {
 }
 
 .scSite__2 h1 {
+  margin-left: 5rem;
   font-size: 3.5rem;
   margin-bottom: 4rem;
 }
@@ -428,6 +443,7 @@ section {
 @media only screen and (max-width: 48em) {
   .scSite__2 h1 {
     font-size: 3rem;
+    margin-left: 0rem;
   }
 }
 

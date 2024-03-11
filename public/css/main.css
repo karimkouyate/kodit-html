@@ -153,6 +153,35 @@ input:focus {
   .navigation .menu--exit {
     display: block;
   }
+
+  .img-container{
+    width: 130px;
+    height: 130px;
+  }
+
+  .web-col-1{
+    order: 2;
+  }
+
+  .brand-col-1{
+    order: 2;
+  }
+
+  .scSite__2 h1{
+    margin-bottom: 0 !important;
+  }
+
+  .lifecycle img {
+    margin-top: 0rem !important;
+  }
+
+  .lifecycle h1 {
+    margin-bottom: 0 !important;
+  }
+
+  .footer{
+    padding: 20px !important;
+  }
 }
 
 .navigation .menu {
@@ -340,6 +369,10 @@ section {
   width: 100%;
   position: sticky;
   top: 4rem;
+}
+#particles-js{
+  position:absolute; 
+  width: 100%; 
 }
 
 @media only screen and (max-width: 48em) {

@@ -52,6 +52,9 @@ $(document).ready(function () {
             $(".menu").css({
                 right:"-100%"
             })
+
+            lg.classList.remove('active');
+            subMenu.classList.remove('active');
         }
         
     })

@@ -307,7 +307,74 @@ input:focus {
   .navigation .menu ul li {
     margin: 1rem;
   }
+
+  .contact-us{
+    margin-top:2rem;
+  }
+
+  .follow-us{
+    margin-top:2rem;
+  }
+
+  .copyright{
+    margin-top:2rem;
+  }
 }
+
+.lang {
+  background-color: #000;
+  border-radius: .8rem;
+  position: absolute;
+  top: 5rem;
+  right: 4.5%;
+  width: 10rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  z-index: 11;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 1);
+ 
+}
+
+.lang::before {
+  width: 1.5rem;
+  height: 1.5rem;
+  content: "";
+  position: absolute;
+  background-color: #000;
+  transform: rotate(45deg);
+  right: 5%;
+  top: -.6rem;
+}
+
+.li-lang{
+  cursor: pointer;
+}
+.li-lang:hover .lang{
+  
+    visibility: visible !important;
+    opacity: 1 !important;
+  
+}
+.active{
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+
+.lang::before {
+  width: 1.5rem;
+  height: 1.5rem;
+  content: "";
+  position: absolute;
+  background-color: #000;
+  transform: rotate(45deg);
+  right: 5%;
+  top: -.6rem;
+  border: 1px solid white;
+}
+
 
 @media only screen and (max-width: 48em) and (max-width: 48em) {
   .navigation .menu ul li {
@@ -603,7 +670,7 @@ section {
 .footer h5 {
   color: #fff;
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .footer a {

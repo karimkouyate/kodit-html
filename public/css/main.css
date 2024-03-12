@@ -374,6 +374,10 @@ input:focus {
 }
 
 
+.se{
+  cursor: pointer;
+}
+
 .lang::before {
   width: 1.5rem;
   height: 1.5rem;
